@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-color: #460707;
+    color: #070101;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+nav ul li.search {
+    margin-left: auto;
+}
+
+.container {
+    display: flex;
+    padding: 2rem;
+    background-color:rgb(135, 231, 135);
+}
+
+.left, .right {
+    flex: 1;
+    padding: 1rem;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.college-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.college-link:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+.right section {
+    margin-bottom: 2rem;
+}
+
+.right h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.info-sections {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-sections section {
+    flex: 1;
+    margin-right: 1rem;
+}
+
+.info-sections section:last-child {
+    margin-right: 0;
+}
+
+.info-sections ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info-sections ul li {
+    margin-bottom: 0.5rem;
+}
+
+#education ul li::before {
+    content: "\1F393"; 
+    margin-right: 0.5rem;
+}
+
